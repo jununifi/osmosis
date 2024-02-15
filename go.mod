@@ -374,6 +374,9 @@ require (
 )
 
 replace (
+	// Replace ibc-go with logging version
+	github.com/cosmos/ibc-go/v7 => github.com/jununifi/ibc-go/v7 v7.3.1-icalog1
+
 	// adds expedited proposal support and 1000MB cache default
 	// https://github.com/osmosis-labs/wasmd/releases/tag/v0.45.0-osmo
 	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.45.0-osmo
